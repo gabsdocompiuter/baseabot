@@ -27,8 +27,8 @@ class Kernel extends ConsoleKernel
         $date = date("ymd");
         $logFile = "baseabot_$date.log";
         $schedule->command('baseabot:cron')
-            ->everyMinute()
-            ->sendOutputTo($logFile);
+            ->everyMinute();
+            // ->sendOutputTo($logFile);
     }
 
     /**
