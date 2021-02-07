@@ -31,7 +31,7 @@ class BaseabotCron extends Command
 
                 $id = $this->limpaId($tweet->id);
                 
-                // $twitter->retweet($id);
+                $twitter->retweet($id);
             }
         }
     }
