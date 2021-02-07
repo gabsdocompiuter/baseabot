@@ -41,6 +41,8 @@ class BaseabotCron extends Command
     }
 
     private function log($nivel, $msg){
+        echo date('H:i:s');
+
         for($i = 0; $i < $nivel; $i++){
             echo "   "; 
         }
