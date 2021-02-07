@@ -45,6 +45,7 @@ class BaseabotCron extends Command
             echo "   "; 
         }
         
-        echo "> $msg\r\n";
+        // echo "> $msg\r\n";
+        echo "> $msg<br>";
     }
 }
